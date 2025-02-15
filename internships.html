@@ -1,0 +1,953 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>Oceanapps Technologies</title>
+    <meta content="Oceanapps - Industry 4.0 | IIoT | AI | Bangalore" name="descriptison">
+    <meta content="AI" name="keywords">
+
+    <!-- Favicons -->
+    <link href="assets/img/oaroundfavicon.png" rel="icon">
+    <link href="assets/img/square_logo.png" rel="Oceanapps Logo">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Poppins:300,400,500,700"
+        rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/scroll.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
+
+
+    <!-- footer -->
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" />
+    <!-- Google Fonts Roboto -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" />
+    <!-- MDB -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="css/style.css" />
+
+</head>
+
+
+<style>
+    body {
+        text-transform: capitalize;
+    }
+
+    .greets {
+        font-family: sans-serif;
+        font-size: xxx-large;
+        line-height: 70px;
+    }
+
+    .container img {
+        object-fit: contain;
+        width: 250px;
+    }
+
+    .course-card {
+        margin: 40px 20px;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: row;
+        /* align-content: center; */
+        /* align-items: center; */
+        flex-wrap: nowrap;
+        font-family: sans-serif;
+
+        background-color: #ffffff;
+        color: #1f1f1f;
+        box-shadow: 0 0px 8px 2px rgb(22, 146, 242);
+    }
+
+    .course-card .img-section {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .course-card .img-section img {
+        border-radius: 0px 20px 20px 0px;
+        /* clip-path: border-box; */
+    }
+
+    .course-card .course-description {
+        margin: 15px 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        gap: 8px;
+    }
+
+    .course-card .course-description .course-name {
+        font-family: system-ui;
+        font-size: xx-large;
+        text-align: center;
+    }
+
+    .course-card .course-description .ab-course {
+        text-align: justify;
+        font-family: system-ui;
+        font-weight: 100;
+        width: 90%;
+        align-self: center;
+    }
+
+    .course-card .course-description .cs-topics {
+        font-family: system-ui;
+        font-weight: 100;
+        display: flex;
+        flex-direction: row;
+        align-self: center;
+    }
+
+    .course-card .course-description .cs-timings {
+        width: 90%;
+        font-family: system-ui;
+        text-align: center;
+    }
+
+    .course-card .course-description .noof-joined {
+        width: 90%;
+        font-family: system-ui;
+        text-align: center;
+    }
+
+    .btnx-box {
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        align-content: center;
+        column-gap: 8px;
+        row-gap: 4px;
+    }
+
+    .course-card .course-description .btnx {
+        /* float: right; */
+        /* align-self: end; */
+        /* margin-right: 10%; */
+        /* padding: 8px 14px; */
+        /* font-size: smaller; */
+        font-family: system-ui;
+        border-radius: 14px;
+
+        /* border: 2px solid #1f1f1f;
+        color: #1f1f1f; */
+
+    }
+
+    @media only screen and (max-width:1023px) {
+
+        .elegant-fill img {
+            height: 25px;
+        }
+
+        .container {
+            width: 100%;
+        }
+
+        .heading span {
+            font-size: x-large;
+        }
+
+        .greets {
+            font-size: x-large;
+            line-height: 40px;
+        }
+
+        .course-card {
+            flex-direction: column;
+            padding: 20px 0px;
+            margin: 40px 8px;
+        }
+
+        .img-section {
+            align-self: center;
+        }
+
+        .course-card .course-description .course-name {
+            font-size: x-large;
+        }
+
+        .course-card .course-description .btnx-box {
+            flex-direction: column;
+        }
+
+        /* .course-card .course-description .btnx { */
+        /* margin-top: 4%; */
+        /* } */
+
+    }
+
+    @media only screen and (max-width:1100px) {
+        .ab-course {
+            font-size: smaller;
+        }
+    }
+
+    .three-highlights {
+        display: flex;
+        gap: 10px;
+
+    }
+
+    @media (max-width:769px) {
+        .three-highlights {
+            flex-direction: column;
+        }
+    }
+</style>
+
+
+<body>
+
+
+
+    <!-- ======= Header ======= -->
+    <header id="header" class="header-transparent">
+        <div class="container">
+          <!-- 
+          <div id="logo" class="pull-left">
+            <a href="index"><img loading="lazy" src="assets/img/logo_1.png" alt="" height="100px" width="100px  "></a> -->
+          <!-- Uncomment below if you prefer to use a text logo -->
+          <!--<h1><a href="#hero">Oceanapps</a></h1>-->
+        
+    
+        <div style="display: flex;flex-direction: column;">
+          <nav id="nav" class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <div id="logo" class="pull-left">
+                <a href="index"><img src="assets/img/oalogo.svg" loading="lazy" alt="" ></a>
+              </div>
+              <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" style="justify-content: space-around;" id="navbarTogglerDemo02">
+                <ul class="navbar-nav  mb-2 mb-lg-0" style="align-items: center;">
+                  <li id="link" class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index">Home</a>
+                  </li>
+                  <li id="link" class="nav-item">
+                    <a class="nav-link" href="about">About</a>
+                  </li>
+                  <li id="link" class="nav-item">
+                    <a class="nav-link" href="products">Products</a>
+                  </li>
+                  <li id="link" class="nav-item">
+                    <a class="nav-link" href="courses">Courses</a>
+                  </li>
+                  <li id="link" class="nav-item">
+                    <a class="nav-link" href="trainer">Trainers</a>
+                  </li>
+                  <li id="link" class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="internships" id="internshipDropdown" role="button"
+                      data-bs-toggle="dropdown" aria-expanded="false">
+                      Internships
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="internshipDropdown">
+                      <li><a class="dropdown-item" href="internships">Long-term Internships</a></li>
+                      <li><a class="dropdown-item" href="internships">short-term Internships</a></li>
+                      <li><a class="dropdown-item" href="internships">summer Internships</a></li>
+                      
+                    </ul>
+                  </li>
+                  
+                  <li id="link" class="nav-item">
+                    <a class="nav-link" href="collaborations">Collaborations</a>
+                    
+                  </li>
+                  <li id="link" class="nav-item">
+                    <a class="nav-link" href="login">Login</a>
+                  </li>
+                  <li id="link" class="nav-item">
+                    <a class="nav-link" href="contact">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          
+          <img id="emgimg" style="align-self: center;" loading="lazy" src="elegant_mesh_gradient.png" />
+    
+        </div>
+    
+    
+        </div>
+    
+    
+        <script>
+          function resize_mesh_gradient_image(){
+            var brect = document.getElementById("nav").getBoundingClientRect();
+    
+            var navwidth = brect.width;
+            var navxpos = brect.x;
+    
+            const mimg = document.getElementById("emgimg");
+    
+            mimg.style.width = (navwidth-44)+"px";
+            mimg.style.x = navxpos+"px";
+    
+            //console.log("resizing");
+          }
+    
+          resize_mesh_gradient_image();
+    
+          window.addEventListener("resize", resize_mesh_gradient_image);
+        </script>
+    
+      </header>
+    
+
+
+    <!-- End Header -->
+
+
+
+
+    <div class="container">
+
+
+
+
+        <!-- <section class="group-interact-imgs" style="width: unset;"> -->
+
+            <!--institute logos-->
+            <!-- <div style="display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            column-gap: 20px;
+            padding: 0 0 30px 0;">
+                <img loading="lazy" class="ilimg" src="assets/img/institute_logos/sdc.jpg" />
+                <img loading="lazy" class="ilimg" src="assets/img/institute_logos/siet.png" /> -->
+            <!-- <img class="ilimg" src="assets/img/institute_logos/sdc.jpg"/>
+            <img class="ilimg" src="assets/img/institute_logos/siet.png"/>
+            <img class="ilimg" src="assets/img/institute_logos/sdc.jpg"/>
+            <img class="ilimg" src="assets/img/institute_logos/siet.png"/>
+            <img class="ilimg" src="assets/img/institute_logos/sdc.jpg"/>
+            <img class="ilimg" src="assets/img/institute_logos/siet.png"/> -->
+            <!-- </div> -->
+<!-- 
+            <section id="collaborations">
+                <div class="container" data-aos="fade-left" style="margin: 0;">
+                    <div class="section-header">
+                        <h3 class="section-title">Institute & Industry Collaborations</h3>
+                        <p class="section-description">Our greatest collaborations with</p>
+                    </div>
+
+                </div>
+                <div class="marquee-container">
+                    <div class="marquee" data-aos="fade-left">
+                        <img class="marq-img-item" loading="lazy" src="assets/img/institute_logos/sdc.jpg" />
+                        <img class="marq-img-item" loading="lazy" src="assets/img/institute_logos/siet.png" />
+                        <img class="marq-img-item" loading="lazy" src="assets/img/institute_logos/vsmlogo.png" />
+                        <img class="marq-img-item" loading="lazy" src="assets/img/institute_logos/pydah.png" />
+                        <img class="marq-img-item" loading="lazy" src="assets/img/institute_logos/wise.jpg" />
+                        <img class="marq-img-item" loading="lazy" src="assets/img/APSCHElogo.png" />
+                        <img class="marq-img-item" loading="lazy" src="assets/img/AICTElogo.png" />
+                        <img class="marq-img-item" loading="lazy" src="assets/img/startupindialogo.png" />
+                    </div>
+
+            </section> -->
+
+
+        <!-- </section> -->
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="greets">
+            <span style="color: #1f1f1f;">Experience. </span><span style="color: #6c6c6c;">comes through
+                practice.</span>
+        </div>
+        <br>
+        <br>
+
+        <div class="three-highlights">
+
+            <div style="display: flex;
+            flex-direction: column;
+            background-color: #303593;
+            color: white;padding: 10px;gap: 8px;
+            border-radius: 5px;">
+                <span style="font-size: xx-large;">50K+</span>
+                <span>STUDENTS EMPOWERED</span>
+                <span>Delivering high-quality training programs across various domains.</span>
+            </div>
+
+            <div style="display: flex;
+            flex-direction: column;
+            background-color: #522e77;
+            color: white;padding: 10px;gap: 8px;
+            border-radius: 5px;">
+                <span style="font-size: xx-large;">5K+</span>
+                <span>FACULTY TRAINED</span>
+                <span>Supporting educators to adapt and thrive in the modern digital landscape.</span>
+            </div>
+
+            <div style="display: flex;
+            flex-direction: column;
+            background-color: #3c6b92;
+            color: white;padding: 10px;gap: 8px;
+            border-radius: 5px;">
+                <span style="font-size: xx-large;">500+</span>
+                <span>INSTITUTIONS BENEFITED</span>
+                <span>Tailored solutions for schools, colleges, and enterprises</span>
+            </div>
+
+        </div>
+
+
+        <div class="course-card">
+            <div class="img-section">
+                <img loading="lazy" src="assets/img/applied ai.png">
+            </div>
+            <div class="course-description">
+                <span class="course-name">Fundamentals of Applied AI</span>
+
+                <span class="ab-course">Gain a solid understanding of Artificial Intelligence, including machine
+                    learning, deep learning, and practical applications. This course covers algorithms, data analysis,
+                    and real-world use cases in AI development.</span>
+
+                <div class="cs-timings">
+                    <span>Duration : <span>16 weeks</span></span>
+                </div>
+
+                <div class="cs-timings">
+                    <span>classes from : <span>coming soon</span></span>
+                </div>
+                <div class="cs-timings">
+                    <span>Last Date For APSCHE Registration : <span style="color: rgb(255, 0, 0);">February 7
+                            2025</span></span>
+                </div>
+
+                <div class="cs-timings"
+                    style="font-family: sans-serif;color: red;font-size: small;font-weight: 600;display: flex;flex-direction: column;align-content: center;align-items: center;">
+                    <span>Approved by <span>APSCHE</span></span>
+                    <img loading="lazy" src="assets/img/APSCHElogo.png" style="width:80px;">
+                </div>
+
+                <div class="noof-joined" hidden>
+                    <span>Joined : <span>0</span></span>
+                </div>
+                <div class="btnx-box">
+                    <a type="button" class="btnx btn btn-primary"
+                        href="internships/fundamentals_of_applied_ai_internship">View Course</a>
+                    <a type="button" class="btnx btn btn-primary" href="https://iic.apsche.ap.gov.in/#/">Register
+                        through Apsche</a>
+                    <a type="button" class="btnx btn btn-primary" href="https://forms.gle/F1cgUbSuLNAaveVY8">Register
+                        through Oceanapps</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="course-card">
+            <div class="img-section">
+                <img loading="lazy" src="assets/img/java-bg.jpeg">
+            </div>
+            <div class="course-description">
+                <span class="course-name">Java Object Oriented Programming</span>
+
+                <span class="ab-course">A Java Object-Oriented Programming (OOP) internship focuses on mastering core
+                    OOP concepts like inheritance, polymorphism, encapsulation, and abstraction using Java.</span>
+
+                <div class="cs-timings">
+                    <span>Duration : <span>16 weeks</span></span>
+                </div>
+
+                <div class="cs-timings">
+                    <span>classes from : <span>coming soon</span></span>
+                </div>
+
+                <div class="cs-timings">
+                    <span>Last Date For APSCHE Registration : <span style="color: rgb(255, 0, 0);">February 7
+                            2025</span></span>
+                </div>
+
+                <div class="cs-timings"
+                    style="font-family: sans-serif;color: red;font-size: small;font-weight: 600;display: flex;flex-direction: column;align-content: center;align-items: center;">
+                    <span>Approved by <span>APSCHE</span></span>
+                    <img loading="lazy" src="assets/img/APSCHElogo.png" style="width:80px;">
+                </div>
+
+                <div class="noof-joined" hidden>
+                    <span>Joined : <span>0</span></span>
+                </div>
+                <div class="btnx-box">
+                    <a type="button" class="btnx btn btn-primary" href="internships/java_oop_internship">View
+                        Course</a>
+                    <a type="button" class="btnx btn btn-primary" href="https://iic.apsche.ap.gov.in/#/">Register
+                        through Apsche</a>
+                    <a type="button" class="btnx btn btn-primary" href="https://forms.gle/F1cgUbSuLNAaveVY8">Register
+                        through Oceanapps</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="course-card">
+            <div class="img-section">
+                <img loading="lazy" src="assets/img/powerbi2.png">
+            </div>
+            <div class="course-description">
+                <span class="course-name">Power BI Tools and Tableau</span>
+
+                <span class="ab-course">Power BI is a business intelligence tool that allows users to visualize data,
+                    create interactive dashboards, and generate insights through advanced analytics. It integrates
+                    seamlessly with Microsoft services and supports real-time data sharing for effective
+                    decision-making.</span>
+
+                <div class="cs-timings">
+                    <span>Duration : <span>16 weeks</span></span>
+                </div>
+
+                <div class="cs-timings">
+                    <span>classes from : <span>coming soon</span></span>
+                </div>
+
+                <div class="cs-timings">
+                    <span>Last Date For APSCHE Registration : <span style="color: rgb(255, 0, 0);">February 7
+                            2025</span></span>
+                </div>
+
+                <div class="cs-timings"
+                    style="font-family: sans-serif;color: red;font-size: small;font-weight: 600;display: flex;flex-direction: column;align-content: center;align-items: center;">
+                    <span>Approved by <span>APSCHE</span></span>
+                    <img loading="lazy" src="assets/img/APSCHElogo.png" style="width:80px;">
+                </div>
+
+                <div class="noof-joined" hidden>
+                    <span>Joined : <span>0</span></span>
+                </div>
+                <div class="btnx-box">
+                    <a type="button" class="btnx btn btn-primary"
+                        href="internships/powerbi_tools_and _tableau">View Course</a>
+                    <a type="button" class="btnx btn btn-primary" href="https://iic.apsche.ap.gov.in/#/">Register
+                        through Apsche</a>
+                    <a type="button" class="btnx btn btn-primary" href="https://forms.gle/F1cgUbSuLNAaveVY8">Register
+                        through Oceanapps</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="course-card">
+            <div class="img-section">
+                <img loading="lazy" src="assets/img/basicwebdevelopment.jpg">
+            </div>
+            <div class="course-description">
+                <span class="course-name">Basic Web Development</span>
+
+                <span class="ab-course">Learn the foundational skills of web development, including HTML, CSS, and
+                    JavaScript. This course covers website structure, styling, and interactivity, preparing you for more
+                    advanced web development concepts.</span>
+
+                <div class="cs-timings">
+                    <span>Duration : <span>16 weeks</span></span>
+                </div>
+
+                <div class="cs-timings">
+                    <span>classes from : <span>coming soon</span></span>
+                </div>
+
+                <div class="cs-timings">
+                    <span>Last Date For APSCHE Registration : <span style="color: rgb(255, 0, 0);">February 7
+                            2025</span></span>
+                </div>
+
+                <div class="cs-timings"
+                    style="font-family: sans-serif;color: red;font-size: small;font-weight: 600;display: flex;flex-direction: column;align-content: center;align-items: center;">
+                    <span>Approved by <span>APSCHE</span></span>
+                    <img loading="lazy" src="assets/img/APSCHElogo.png" style="width:80px;">
+                </div>
+
+                <div class="noof-joined" hidden>
+                    <span>Joined : <span>0</span></span>
+                </div>
+                <div class="btnx-box">
+                    <a type="button" class="btnx btn btn-primary" href="internships/basic_web_development">View
+                        Course</a>
+                    <a type="button" class="btnx btn btn-primary" href="https://iic.apsche.ap.gov.in/#/">Register
+                        through Apsche</a>
+                    <a type="button" class="btnx btn btn-primary" href="https://forms.gle/F1cgUbSuLNAaveVY8">Register
+                        through Oceanapps</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="course-card">
+            <div class="img-section">
+                <img loading="lazy" src="assets/img/arduino.png">
+            </div>
+            <div class="course-description">
+                <span class="course-name">Arduino Embedded Programming</span>
+
+                <span class="ab-course">It offers hands-on experience in developing microcontroller-based solutions
+                    using Arduino boards and IDE. Interns work on hardware-software integration, sensor interfacing, and
+                    real-time embedded systems.</span>
+
+                <div class="cs-timings">
+                    <span>Duration : <span>16 weeks</span></span>
+                </div>
+
+                <div class="cs-timings">
+                    <span>classes from : <span>coming soon</span></span>
+                </div>
+
+                <div class="cs-timings">
+                    <span>Last Date For APSCHE Registration : <span style="color: rgb(255, 0, 0);">February 7
+                            2025</span></span>
+                </div>
+
+                <div class="cs-timings"
+                    style="font-family: sans-serif;color: red;font-size: small;font-weight: 600;display: flex;flex-direction: column;align-content: center;align-items: center;">
+                    <span>Approved by <span>APSCHE</span></span>
+                    <img loading="lazy" src="assets/img/APSCHElogo.png" style="width:80px;">
+                </div>
+
+                <div class="noof-joined" hidden>
+                    <span>Joined : <span>0</span></span>
+                </div>
+                <div class="btnx-box">
+                    <a type="button" class="btnx btn btn-primary"
+                        href="internships/Arduino_Embedded_programming">View Course</a>
+                    <a type="button" class="btnx btn btn-primary" href="https://iic.apsche.ap.gov.in/#/">Register
+                        through Apsche</a>
+                    <a type="button" class="btnx btn btn-primary" href="https://forms.gle/F1cgUbSuLNAaveVY8">Register
+                        through Oceanapps</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="course-card">
+            <div class="img-section">
+                <img loading="lazy" src="assets/img/IoT.png">
+            </div>
+            <div class="course-description">
+                <span class="course-name">Internet of Things</span>
+
+                <span class="ab-course">It offers hands-on experience in designing, programming, and deploying IoT
+                    systems and devices. It includes working with sensors, microcontrollers, and communication protocols
+                    like MQTT and Bluetooth.</span>
+
+                <div class="cs-timings">
+                    <span>Duration : <span>16 weeks</span></span>
+                </div>
+
+                <div class="cs-timings">
+                    <span>classes from : <span>coming soon</span></span>
+                </div>
+
+                <div class="cs-timings">
+                    <span>Last Date For APSCHE Registration : <span style="color: rgb(255, 0, 0);">February 7
+                            2025</span></span>
+                </div>
+
+                <div class="cs-timings"
+                    style="font-family: sans-serif;color: red;font-size: small;font-weight: 600;display: flex;flex-direction: column;align-content: center;align-items: center;">
+                    <span>Approved by <span>APSCHE</span></span>
+                    <img loading="lazy" src="assets/img/APSCHElogo.png" style="width:80px;">
+                </div>
+
+                <div class="noof-joined" hidden>
+                    <span>Joined : <span>0</span></span>
+                </div>
+                <div class="btnx-box">
+                    <a type="button" class="btnx btn btn-primary" href="internships/internet_of_things">View
+                        Course</a>
+                    <a type="button" class="btnx btn btn-primary" href="https://iic.apsche.ap.gov.in/#/">Register
+                        through Apsche</a>
+                    <a type="button" class="btnx btn btn-primary" href="https://forms.gle/F1cgUbSuLNAaveVY8">Register
+                        through Oceanapps</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="course-card">
+            <div class="img-section">
+                <img loading="lazy" src="assets/img/tally erp.jpg">
+            </div>
+            <div class="course-description">
+                <span class="course-name">Tally ERP</span>
+
+                <span class="ab-course">provides hands-on experience in using Tally ERP software for accounting,
+                    inventory management, and taxation. Interns learn key features such as GST compliance, payroll
+                    management, and financial reporting.</span>
+
+                <div class="cs-timings">
+                    <span>Duration : <span>16 weeks</span></span>
+                </div>
+
+                <div class="cs-timings">
+                    <span>classes from : <span>coming soon</span></span>
+                </div>
+
+                <div class="cs-timings">
+                    <span>Last Date For APSCHE Registration : <span style="color: rgb(255, 0, 0);">February 7
+                            2025</span></span>
+                </div>
+
+                <div class="cs-timings"
+                    style="font-family: sans-serif;color: red;font-size: small;font-weight: 600;display: flex;flex-direction: column;align-content: center;align-items: center;">
+                    <span>Approved by <span>APSCHE</span></span>
+                    <img loading="lazy" src="assets/img/APSCHElogo.png" style="width:80px;">
+                </div>
+
+                <div class="noof-joined" hidden>
+                    <span>Joined : <span>0</span></span>
+                </div>
+                <div class="btnx-box">
+                    <a type="button" class="btnx btn btn-primary" href="internships/tally_erp">View Course</a>
+                    <a type="button" class="btnx btn btn-primary" href="https://iic.apsche.ap.gov.in/#/">Register
+                        through Apsche</a>
+                    <a type="button" class="btnx btn btn-primary" href="https://forms.gle/F1cgUbSuLNAaveVY8">Register
+                        through Oceanapps</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="course-card">
+            <div class="img-section">
+                <img loading="lazy" src="assets/img/digital marketing.jpg">
+            </div>
+            <div class="course-description">
+                <span class="course-name">Digital Marketing Fundamentals</span>
+
+                <span class="ab-course">It introduces participants to the core concepts of online marketing, including
+                    SEO, social media marketing, and email campaigns. Interns learn to analyze consumer behavior,
+                    optimize content, and create targeted advertising strategies.</span>
+
+                <div class="cs-timings">
+                    <span>Duration : <span>16 weeks</span></span>
+                </div>
+
+                <div class="cs-timings">
+                    <span>classes from : <span>coming soon</span></span>
+                </div>
+
+                <div class="cs-timings">
+                    <span>Last Date For APSCHE Registration : <span style="color: rgb(255, 0, 0);">February 7
+                            2025</span></span>
+                </div>
+
+                <div class="cs-timings"
+                    style="font-family: sans-serif;color: red;font-size: small;font-weight: 600;display: flex;flex-direction: column;align-content: center;align-items: center;">
+                    <span>Approved by <span>APSCHE</span></span>
+                    <img loading="lazy" src="assets/img/APSCHElogo.png" style="width:80px;">
+                </div>
+
+                <div class="noof-joined" hidden>
+                    <span>Joined : <span>0</span></span>
+                </div>
+                <div class="btnx-box">
+                    <a type="button" class="btnx btn btn-primary"
+                        href="internships/digital_marketing_fundamentals">View Course</a>
+                    <a type="button" class="btnx btn btn-primary" href="https://iic.apsche.ap.gov.in/#/">Register
+                        through Apsche</a>
+                    <a type="button" class="btnx btn btn-primary" href="https://forms.gle/F1cgUbSuLNAaveVY8">Register
+                        through Oceanapps</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="course-card">
+            <div class="img-section">
+                <img loading="lazy" src="assets/img/chemist safety.png">
+            </div>
+            <div class="course-description">
+                <span class="course-name">Chemist Safety in Production</span>
+
+                <span class="ab-course">It involves adhering to strict safety protocols while handling chemicals and
+                    operating machinery. Interns must wear appropriate personal protective equipment (PPE) such as
+                    gloves, goggles, and lab coats to prevent exposure to hazardous substances.</span>
+
+                <div class="cs-timings">
+                    <span>Duration : <span>16 weeks</span></span>
+                </div>
+
+                <div class="cs-timings">
+                    <span>classes from : <span>coming soon</span></span>
+                </div>
+
+                <div class="cs-timings">
+                    <span>Last Date For APSCHE Registration : <span style="color: rgb(255, 0, 0);">February 7
+                            2025</span></span>
+                </div>
+
+                <div class="cs-timings"
+                    style="font-family: sans-serif;color: red;font-size: small;font-weight: 600;display: flex;flex-direction: column;align-content: center;align-items: center;">
+                    <span>Approved by <span>APSCHE</span></span>
+                    <img loading="lazy" src="assets/img/APSCHElogo.png" style="width:80px;">
+                </div>
+
+                <div class="noof-joined" hidden>
+                    <span>Joined : <span>0</span></span>
+                </div>
+                <div class="btnx-box">
+                    <a type="button" class="btnx btn btn-primary"
+                        href="internships/chemist_safety_in_production">View Course</a>
+                    <a type="button" class="btnx btn btn-primary" href="https://iic.apsche.ap.gov.in/#/">Register
+                        through Apsche</a>
+                    <a type="button" class="btnx btn btn-primary" href="https://forms.gle/F1cgUbSuLNAaveVY8">Register
+                        through Oceanapps</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="greets" style="margin-top: 20px;text-align: center;">
+            <span style="color: #6c6c6c;">No idea what course to select ?</span>
+            <br>
+            <span style="color: #1f1f1f;">Feel free to talk with us <a href="index#contact"
+                    class="fa fa-external-link" style="color: #1f1f1f;text-decoration: none;"></a></span>
+        </div>
+
+        <br>
+        <br>
+
+
+
+    </div>
+
+
+    <!-- ======= Footer ======= -->
+    <div class="container-fluid my-5 p-0">
+        <footer class="text-center text-white custom-footer">
+          <div class="container-fluid p-0 m-0">
+            <section class="mt-5" style="margin-top: unset !important;">
+              <div class="row text-center d-flex justify-content-center pt-5 gap-3">
+                <div class="col-md-1 col-6 mb-3">
+                  <h6 class="text-uppercase font-weight-bold">
+                    <a id="footer-links" href="index" class="text-decoration-none">Home</a>
+                  </h6>
+                </div>
+                <div class="col-md-1 col-6 mb-3">
+                  <h6 class="text-uppercase font-weight-bold">
+                    <a id="footer-links" href="about" class="text-decoration-none">About</a>
+                  </h6>
+                </div>
+                <div class="col-md-1 col-6 mb-3">
+                  <h6 class="text-uppercase font-weight-bold">
+                    <a id="footer-links" href="products" class="text-decoration-none">Products</a>
+                  </h6>
+                </div>
+                <div class="col-md-1 col-6 mb-3">
+                  <h6 class="text-uppercase font-weight-bold">
+                    <a id="footer-links" href="courses" class="text-decoration-none">Courses</a>
+                  </h6>
+                </div>
+                <div class="col-md-1 col-6 mb-3">
+                  <h6 class="text-uppercase font-weight-bold">
+                    <a id="footer-links" href="trainer" class="text-decoration-none">Trainers</a>
+                  </h6>
+                </div>
+                <div class="col-md-1 col-6 mb-3">
+                  <h6 class="text-uppercase font-weight-bold">
+                    <a id="footer-links" href="contact" class="text-decoration-none">Contact</a>
+                  </h6>
+                </div>
+    
+    
+              </div>
+            </section>
+            <hr class="my-5" style="margin-bottom: unset !important;margin-top: unset !important;" />
+            <section class="mb-5" style="margin-bottom: unset !important;">
+              <div class="row d-flex justify-content-center">
+                <div class="col-lg-8">
+                  <p>
+                    <a href="mailto:info@oceanapps.in" class="contact-link">info@oceanapps.in</a>
+                    <br>
+                    <a href="tel:+1234567890" class="contact-link">+91 77299 72266</a>
+                    <br>
+                    <a href="tel:+1234567890" class="contact-link">+91 77299 72289</a>
+                  </p>
+                </div>
+              </div>
+            </section>
+            <section class="text-center mb-5">
+              <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="social-icon"><i class="fab fa-google"></i></a>
+              <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+              <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+              <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
+            </section>
+          </div>
+          <div class="text-center p-3 custom-copyright">
+            © 2024 Oceanapps Technologies Pvt Ltd
+          </div>
+        </footer>
+      </div>
+
+    <!-- End Footer -->
+
+    <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/jquery/jquery.min.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/counterup/counterup.min.js"></script>
+    <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/superfish/superfish.min.js"></script>
+    <script src="assets/vendor/hoverIntent/hoverIntent.js"></script>
+    <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+    <script src="assets/vendor/venobox/venobox.min.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <!-- footer -->
+
+
+    <!-- MDB -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- Custom scripts -->
+    <script type="text/javascript" src="js/script.js"></script>
+
+
+    <!--Start of Tawk.to Script-->
+    <!-- <script type="text/javascript">
+    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+    (function(){
+    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+    s1.async=true;
+    s1.src='https://embed.tawk.to/5f34bc814c7806354da5fa7d/default';
+    s1.charset='UTF-8';
+    s1.setAttribute('crossorigin','*');
+    s0.parentNode.insertBefore(s1,s0);
+    })();
+    </script> -->
+    <!--End of Tawk.to Script-->
+</body>
+
+</html>

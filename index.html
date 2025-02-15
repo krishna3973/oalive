@@ -1,0 +1,905 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Oceanapps Technologies</title>
+  <meta content="Oceanapps - Industry 4.0 | IIoT | AI | Bangalore" name="descriptison">
+  <meta content="AI" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/oaroundfavicon.png" rel="icon">
+  <link href="assets/img/square_logo.png" rel="Oceanapps Logo">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Poppins:300,400,500,700"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+  <link href="assets/css/scroll.css" rel="stylesheet">
+
+
+  <!-- image archive carousel -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+
+
+
+  <!-- footer -->
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" />
+  <!-- Google Fonts Roboto -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" />
+  <!-- MDB -->
+  <link rel="stylesheet" href="css/mdb.min.css" />
+  <!-- Custom styles -->
+  <link rel="stylesheet" href="css/style.css" />
+
+</head>
+
+
+
+
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header-transparent">
+    <div class="container">
+      <!-- 
+      <div id="logo" class="pull-left">
+        <a href="index"><img loading="lazy" src="assets/img/logo_1.png" alt="" height="100px" width="100px  "></a> -->
+      <!-- Uncomment below if you prefer to use a text logo -->
+      <!--<h1><a href="#hero">Oceanapps</a></h1>-->
+    
+
+    <div style="display: flex;flex-direction: column;">
+      <nav id="nav" class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <div id="logo" class="pull-left">
+            <a href="index"><img src="assets/img/oalogo.svg" loading="lazy" alt="" ></a>
+          </div>
+          <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" style="justify-content: space-around;" id="navbarTogglerDemo02">
+            <ul class="navbar-nav  mb-2 mb-lg-0" style="align-items: center;">
+              <li id="link" class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index">Home</a>
+              </li>
+              <li id="link" class="nav-item">
+                <a class="nav-link" href="about">About</a>
+              </li>
+              <li id="link" class="nav-item">
+                <a class="nav-link" href="products">Products</a>
+              </li>
+              <li id="link" class="nav-item">
+                <a class="nav-link" href="courses">Courses</a>
+              </li>
+              <li id="link" class="nav-item">
+                <a class="nav-link" href="trainer">Trainers</a>
+              </li>
+              <li id="link" class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="internships" id="internshipDropdown" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  Internships
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="internshipDropdown">
+                  <li><a class="dropdown-item" href="internships">Long-term Internships</a></li>
+                  <li><a class="dropdown-item" href="internships">short-term Internships</a></li>
+                  <li><a class="dropdown-item" href="internships">summer Internships</a></li>
+                  
+                </ul>
+              </li>
+              
+              <li id="link" class="nav-item">
+                <a class="nav-link" href="collaborations">Collaborations</a>
+                
+              </li>
+              <li id="link" class="nav-item">
+                <a class="nav-link" href="login">Login</a>
+              </li>
+              <li id="link" class="nav-item">
+                <a class="nav-link" href="contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      
+      <img id="emgimg" style="align-self: center;" loading="lazy" src="elegant_mesh_gradient.png" />
+
+    </div>
+
+
+    </div>
+
+
+    <script>
+      function resize_mesh_gradient_image(){
+        var brect = document.getElementById("nav").getBoundingClientRect();
+
+        var navwidth = brect.width;
+        var navxpos = brect.x;
+
+        const mimg = document.getElementById("emgimg");
+
+        mimg.style.width = (navwidth-44)+"px";
+        mimg.style.x = navxpos+"px";
+
+        //console.log("resizing");
+      }
+
+      resize_mesh_gradient_image();
+
+      window.addEventListener("resize", resize_mesh_gradient_image);
+    </script>
+
+  </header>
+
+
+
+  <!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <!-- Swiper Carousel -->
+  <section id="gallery" style="margin-top: 0px; height: 100vh;">
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <style>
+          .info-over-text{
+            margin-top: 500px;
+            position: absolute;
+            background-color: rgba(255, 255, 255, 0.863);
+            padding: 15px;
+            border-radius: 20px;
+            backdrop-filter: blur(4px);
+            color: rgb(0, 0, 0);
+            font-size: larger;
+            margin-right: 0%;
+            margin-left: 0%;
+            height: auto;
+            text-align: justify;
+            align-items: center;
+            justify-content: center;
+            z-index: 1;
+
+            text-justify: inter-word;
+            hyphens: auto;
+            word-spacing: -0.8px;
+            
+            h4{
+              margin-left: 10%;
+              margin-right: 10%;
+              font-weight: bold;
+            }
+
+            div{
+              margin-left: 10%;
+              margin-right: 10%;
+            }
+
+          }
+          @media (max-width: 991px){
+            .info-over-text{
+              display: none;
+            }
+          }
+
+          .info-over-image{
+            margin-top: 100px;
+            
+            position: absolute;
+            background-color: rgba(255, 255, 255, 0.879);
+            padding: 5px;
+            border-radius: 20px;
+            backdrop-filter: blur(4px);
+            margin-right: -12px;
+            /* justify-content: center;
+            align-items: center;
+            align-content: center; */
+            color: white;
+            font-size: larger;
+
+            img{
+              border-radius: 20px;
+            }
+          }
+
+          .info-over-image-full{
+            margin-top: 0px;
+            position: absolute;
+            background: linear-gradient(90deg, #00b6ff, #0033fd);
+            padding: 5px;
+            border-radius: 20px;
+            backdrop-filter: blur(2px);
+            color: white;
+            font-size: larger;
+            margin-right: 13px;
+            height: auto;
+
+            img{
+              border-radius: 20px;
+            }
+          }
+
+          .info-over-text1{
+            margin-top: 90px;
+            position: absolute;
+            background-color: rgba(207, 235, 255, 0.742);
+            padding: 20px;
+            border-radius: 20px;
+            backdrop-filter: blur(2px);
+            color: rgb(0, 71, 236);
+            font-size: larger;
+            margin-top: 20%;
+            margin-right: 55%;
+            margin-left: 5%;
+            height: auto;
+            float: left;
+            text-align: justify;
+            text-justify: inter-word;
+            hyphens: auto;
+            word-spacing: -0.5px;
+            
+            h4{
+              font-weight: bold;
+            }
+
+          }
+
+        </style>
+        <div class="swiper-slide">
+         
+          <img class="swiper-img" style="margin-top: 0px; " data-aos="zoom-in"  src="assets/img/scifybg.jpg" alt="Training 1" >
+         
+          <div class="info-over-text" data-aos="fade-left">
+            <div>
+              <h4>Campus-Connect</h4>
+              <div>Bridging students, faculty, and resources for a smarter campus experience</div> 
+            </div>
+          </div> 
+
+          <div class="info-over-image" data-aos="zoom-in">
+            <img src="assets/img/content_photos/oa_adv.jpg" style="object-fit: contain;" width="auto" height="570px"/>
+          </div>
+
+        </div>
+        <div class="swiper-slide">
+          <img class="swiper-img" style="margin-top: 0px; justify-content: center; align-items: center;" data-aos="zoom-in" src="assets/img/scifybg.jpg" alt="Training 2">
+        
+           <div class="info-over-text" data-aos="fade-left">
+            <div>
+              <h4>Learn Full Stack Development</h4>
+              <div>Master Full-Stack with Industry Experts !</div>
+            </div>
+          </div> 
+
+          <div class="info-over-image" data-aos="zoom-in">
+            <img src="assets/img/content_photos/oa_adv7.jpg" style="object-fit: contain;" height="570px"/>
+          </div>
+
+        </div>
+        <div class="swiper-slide" >
+          <img class="swiper-img" style="margin-top: 0px; " data-aos="zoom-in" src="assets/img/scifybg.jpg" alt="Training 3">
+        
+           <div class="info-over-text" data-aos="fade-left">
+            <div>
+              <h4 >Build Real-World Projects</h4>
+              <div>Enhance Your Skillls With Hands-On Experience !</div>
+            </div>
+          </div> 
+
+          <div class="info-over-image" data-aos="zoom-in">
+            <img src="assets/img/content_photos/oa_adv15.jpg" style="object-fit: contain;" height="570px"/>
+          </div>
+        
+        </div>
+        
+      </div>
+
+      <!-- Navigation buttons -->
+      <!-- <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div> -->
+    </div>
+  </section>
+
+  <!-- Include Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      loop: true,
+      autoplay: {
+        delay: 6000, // Moves to the next slide every 2 seconds
+        disableOnInteraction: false, // Keeps autoplay running even after user interaction
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+  </script>
+
+  <!-- ✅ Fix for Image Cropping Issue -->
+  <style>
+    .swiper-container {
+      padding-top: 0 ;
+      width: 100%;
+      height: 100vh;
+      /* Ensures all images take the same height */
+    }
+
+    .swiper-slide {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .swiper-img {
+      width: 100vw;
+      height: 100%;
+      height: 80vh;
+      object-fit: contain;
+      /* Ensures full image is visible without cropping */
+    }
+
+    /* Navigation Button Styling */
+    .swiper-button-prev,
+    .swiper-button-next {
+      color: white;
+      /* Change navigation arrow color */
+    }
+  </style>
+
+
+
+
+  <!-- End Hero Section -->
+
+  <main id="main">
+   
+
+    <!--collaborations-->
+    <section id="collaborations">
+
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+          <h3 class="section-title">Industry Collaborations</h3>
+          <p class="section-description">Our greatest collaborations with</p>
+        </div>
+      </div>
+
+      <div>
+        <div style="display: flex;align-items: center;justify-content: center;align-content: center;" data-aos="fade-up">
+          <img class="marq-img-item" loading="lazy" src="assets/img/APSCHElogo.png" />
+          <img class="marq-img-item" loading="lazy" src="assets/img/AICTElogo.png" />
+          
+        </div>
+
+    </section>
+
+    <section id="collaborations">
+
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+          <h3 class="section-title">Institute Collaborations</h3>
+          <p class="section-description">Our greatest collaborations with</p>
+        </div>
+      </div>
+
+      <div class="marquee-container">
+        <div class="marquee" data-aos="fade-up">
+          <img class="marq-img-item" loading="lazy" src="assets/img/institute_logos/sanjeev.jpg" />
+          <img class="marq-img-item" loading="lazy" src="assets/img/institute_logos/siet.png" />
+          <img class="marq-img-item" loading="lazy" src="assets/img/institute_logos/vsmlogo.png" />
+          <img class="marq-img-item" loading="lazy" src="assets/img/institute_logos/pydah.png" />
+          <img class="marq-img-item" loading="lazy" src="assets/img/institute_logos/sripagna.jpg" />
+          <img class="marq-img-item" loading="lazy" src="assets/img/institute_logos/sri samhitha.png" />
+          <img class="marq-img-item" loading="lazy" src="assets/img/institute_logos/gvt degree rvpm.jpeg" />
+          <img class="marq-img-item" loading="lazy" src="assets/img/institute_logos/sv degree.jpg" />
+          <img class="marq-img-item" loading="lazy" src="assets/img/institute_logos/vikas.jpg" />
+          <img class="marq-img-item" loading="lazy" src="assets/img/institute_logos/amalapuram.jpg" />
+          <img class="marq-img-item" loading="lazy" src="assets/img/institute_logos/sri_nsn_dc.jpg" />
+          <img class="marq-img-item" loading="lazy" src="assets/img/institute_logos/wise.jpg" />
+          <img class="marq-img-item" loading="lazy" src="assets/img/institute_logos/sanjeev.jpg" />
+          <img class="marq-img-item" loading="lazy" src="assets/img/institute_logos/siet.png" />
+          <img class="marq-img-item" loading="lazy" src="assets/img/institute_logos/vsmlogo.png" />
+        </div>
+
+    </section>
+
+    <!-- end of collaborations-->
+
+
+
+
+
+    <!-- ======= images Section ======= -->
+
+
+
+
+
+    <!-- Section Header -->
+    <div class="container" data-aos="fade-up">
+      <div class="section-header" style="padding-top: 20px; padding-bottom: 20px;">
+        <h3 class="section-title">Our Trainings</h3>
+      </div>
+    </div>
+
+    <!-- Swiper Carousel -->
+    <section id="gallery" style="height: 90vh;">
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img class="swiper-img" data-aos="zoom-in" src="assets/img/cyanbluebg.jpg" alt="Training 1">
+            <div class="info-over-image-full" data-aos="zoom-in">
+              <img src="assets/img/oa website photos/oa_group.jpg"  height="500px"/>
+            </div>
+
+              <div class="info-over-text" data-aos="fade-left">
+            <div>
+              <h4>Hands -On learning
+              </h4>
+              <div>Through hands-on, experiential learning, students gain practical understanding of concepts with the support of expert talks, hackathons, and bootcamps that complement the course content.
+              </div>
+            </div>
+          </div>
+          </div>
+          <div class="swiper-slide">
+            <img class="swiper-img" data-aos="zoom-in" src="assets/img/cyanbluebg.jpg" alt="Training 2">
+            <div class="info-over-image-full" data-aos="zoom-in">
+              <img src="assets/img/oa website photos/oa_adv10_cmprs.jpg" height="500px"/>
+            </div>
+            <div class="info-over-text" data-aos="fade-left">
+              <div>
+                <h4>Future-Ready Course Content</h4>
+                <div>The curriculum equips students with Industry 4.0 technology skills like AI and cloud computing while also fostering essential lifelong abilities such as problem-solving, collaboration, and communication—ensuring they can create real-world value.</div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img class="swiper-img" data-aos="zoom-in" src="assets/img/cyanbluebg.jpg" alt="Training 3">
+            <div class="info-over-image-full" data-aos="zoom-in">
+              <img src="assets/img/oa website photos/oa_adv13_cmprs.jpg" height="500px"/>
+            </div>
+            <div class="info-over-text" data-aos="fade-left">
+              <div>
+                <h4>Project-Based Learning
+                </h4>
+                <div>Students apply their knowledge to develop practical, scalable solutions that address real challenges within their local communities, ensuring hands-on learning with real-world impact.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Navigation buttons -->
+        <!-- <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div> -->
+      </div>
+    </section>
+
+    <!-- Include Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <script>
+      var swiper = new Swiper('.swiper-container', {
+        loop: true,
+        autoplay: {
+          delay: 2000, // Moves to the next slide every 2 seconds
+          disableOnInteraction: false, // Keeps autoplay running even after user interaction
+        },
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+      });
+    </script>
+
+    <!-- ✅ Fix for Image Cropping Issue -->
+    <style>
+      .swiper-container {
+        width: 100%;
+        height: 100vh;
+        /* Ensures all images take the same height */
+      }
+
+      .swiper-slide {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .swiper-img {
+        width: 100vw;
+        height: 100%;
+        object-fit: contain;
+        /* Ensures full image is visible without cropping */
+      }
+
+      /* Navigation Button Styling */
+      .swiper-button-prev,
+      .swiper-button-next {
+        color: white;
+        /* Change navigation arrow color */
+      }
+    </style>
+
+
+
+
+
+
+
+
+
+    <!-- 
+    <section class="trainings">
+      <div class="container p-0" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
+          <div class="section-header">
+              <h3 class="section-title">Our Trainings</h3>
+              <p class="section-description">Explore our training sessions</p>
+          </div>
+  
+
+          <div id="trainingsCarouselUnique" class="carousel slide trainings-carousel" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                  <div class="carousel-item active">
+                      <img src="assets/img/content_photos/oa_adv.jpg" class="d-block w-100" alt="Training 1">
+                  </div>
+                  <div class="carousel-item">
+                      <img src="assets/img/content_photos/oa_adv.jpg" class="d-block w-100" alt="Training 2">
+                  </div>
+                  <div class="carousel-item">
+                      <img src="assets/img/content_photos/oa_adv.jpg" class="d-block w-100" alt="Training 3">
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  
+  <script>
+      AOS.init(); 
+  
+      document.addEventListener("DOMContentLoaded", function () {
+          var myTrainingsCarousel = document.querySelector("#trainingsCarouselUnique");
+          new bootstrap.Carousel(myTrainingsCarousel, {
+              interval: 3000, 
+              ride: "carousel",
+              touch: true,
+              pause: false 
+          });
+      });
+  </script>
+  
+  <style>
+      .trainings-carousel .carousel-inner {
+          display: flex;
+          transition: transform 1.2s ease-in-out;
+      }
+  
+      .trainings-carousel .carousel-item {
+          width: 100%;
+          flex: 0 0 100%;
+          transition: transform 1.2s ease-in-out;
+      }
+  
+      .trainings-carousel img {
+          object-fit: cover;
+          width: 100%;
+          height: auto;
+      }
+  </style>
+   -->
+
+
+
+    <!-- <section class="trainings">
+      <div class="container p-0" data-aos="fade-up">
+        <div class="section-header">
+          <h3 class="section-title">Our Trainings</h3>
+          <p class="section-description">Explore our training sessions</p>
+        </div>
+
+
+        <div id="trainingsCarouselUnique" class="carousel slide trainings-carousel" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row">
+                <div class="col-md-4">
+                  <img src="assets/img/content_photos/oa_adv.jpg" class="d-block w-100" alt="Training 1">
+                </div>
+                <div class="col-md-4">
+                  <img src="assets/img/content_photos/oa_adv.jpg" " class="d-block w-100" alt="Training 2">
+                </div>
+                <div class="col-md-4">
+                  <img src="assets/img/content_photos/oa_adv.jpg"  class="d-block w-100" alt="Training 3">
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-md-4">
+                  <img src="assets/img/content_photos/oa_adv.jpg"  class="d-block w-100" alt="Training 4">
+                </div>
+                <div class="col-md-4">
+                  <img src="assets/img/content_photos/oa_adv.jpg"  class="d-block w-100" alt="Training 5">
+                </div>
+                <div class="col-md-4">
+                  <img src="assets/img/content_photos/oa_adv.jpg"  class="d-block w-100" alt="Training 6">
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <a class="carousel-control-prev" href="#trainingsCarouselUnique" role="button" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#trainingsCarouselUnique" role="button" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        var myTrainingsCarousel = document.querySelector("#trainingsCarouselUnique");
+        new bootstrap.Carousel(myTrainingsCarousel, {
+          interval: 2000,
+          ride: "carousel",
+        });
+      });
+    </script> -->
+
+
+
+
+
+
+    <!-- ======= Call To Action Section ======= -->
+    <section id="call-to-action" style="margin-top: 0;">
+      <div class="container">
+        <div id="mous" data-aos="zoom-in">
+          <span style="color: #033c6e;">On Going Internships.....</span>
+          <span id="mou-count">
+            Count
+            <span id="mou-int-count">9</span></span>
+        </div>
+      </div>
+    </section>
+    
+    <!-- End Call To Action Section -->
+
+
+
+    <!--digital summit-->
+    <!-- <section class="digital">
+      <div class="container p-0" data-aos="zoom-in">
+        <div class="section-header">
+          <h3 class="section-title">Image Archive</h3>
+          <p class="section-description">Our greatest Snapshots</p>
+        </div>
+      </div>
+
+      <style>
+        .carousel-container {
+          position: relative;
+          overflow: hidden;
+          padding-top: 0;
+          padding-bottom: 0;
+          margin-top: 0;
+        }
+
+        .carousel {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          position: relative;
+          width: 100vw;
+          height: 70vh;
+        }
+
+        .carousel img {
+          position: absolute;
+          height: 250px;
+          object-fit: contain;
+          transition: transform 0.9s ease, opacity 0.9s ease;
+          /* border-radius: 20px; */
+        }
+
+        .carousel img.active {
+          object-fit: contain;
+          width: 60%;
+          height: 350px;
+          z-index: 3;
+          transform: scale(1.1);
+          opacity: 1;
+        }
+
+        .carousel img.left {
+          transform: translateX(-120%) scale(0.9);
+          opacity: 0.5;
+          z-index: 2;
+        }
+
+        .carousel img.right {
+          transform: translateX(120%) scale(0.9);
+          opacity: 0.5;
+          z-index: 2;
+        }
+      </style>
+
+      <div class="carousel-container">
+        <div class="carousel">
+          <img src="assets/img/sumit.jpg" class="left" alt="Slide 1">
+          <img src="assets/img/sumit1.jpg" class="active" alt="Slide 2">
+          <img src="assets/img/summit2.jpg" class="right" alt="Slide 3">
+        </div>
+      </div>
+
+      <script>
+        const images = document.querySelectorAll(".carousel img");
+        let index = 1;
+
+        function moveCarousel() {
+          images.forEach((img, i) => {
+            img.classList.remove("active", "left", "right");
+
+            if (i === index) {
+              img.classList.add("active");
+            } else if (i === (index - 1 + images.length) % images.length) {
+              img.classList.add("left");
+            } else {
+              img.classList.add("right");
+            }
+          });
+
+          index = (index + 1) % images.length;
+        }
+
+        setInterval(moveCarousel, 3000);
+      </script>
+
+    </section> -->
+
+    <!-- ======= Contact Section ======= -->
+
+
+    <!-- End Contact Section -->
+
+  </main>
+
+  <!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <div class="container-fluid my-5 p-0">
+    <footer class="text-center text-white custom-footer">
+      <div class="container-fluid p-0 m-0">
+        <section class="mt-5" style="margin-top: unset !important;">
+          <div class="row text-center d-flex justify-content-center pt-5 gap-3">
+            <div class="col-md-1 col-6 mb-3">
+              <h6 class="text-uppercase font-weight-bold">
+                <a id="footer-links" href="index" class="text-decoration-none">Home</a>
+              </h6>
+            </div>
+            <div class="col-md-1 col-6 mb-3">
+              <h6 class="text-uppercase font-weight-bold">
+                <a id="footer-links" href="about" class="text-decoration-none">About</a>
+              </h6>
+            </div>
+            <div class="col-md-1 col-6 mb-3">
+              <h6 class="text-uppercase font-weight-bold">
+                <a id="footer-links" href="products" class="text-decoration-none">Products</a>
+              </h6>
+            </div>
+            <div class="col-md-1 col-6 mb-3">
+              <h6 class="text-uppercase font-weight-bold">
+                <a id="footer-links" href="courses" class="text-decoration-none">Courses</a>
+              </h6>
+            </div>
+            <div class="col-md-1 col-6 mb-3">
+              <h6 class="text-uppercase font-weight-bold">
+                <a id="footer-links" href="trainer" class="text-decoration-none">Trainers</a>
+              </h6>
+            </div>
+            <div class="col-md-1 col-6 mb-3">
+              <h6 class="text-uppercase font-weight-bold">
+                <a id="footer-links" href="contact" class="text-decoration-none">Contact</a>
+              </h6>
+            </div>
+
+
+          </div>
+        </section>
+        <hr class="my-5" style="margin-bottom: unset !important;margin-top: unset !important;" />
+        <section class="mb-5" style="margin-bottom: unset !important;">
+          <div class="row d-flex justify-content-center">
+            <div class="col-lg-8">
+              <p>
+                <a href="mailto:info@oceanapps.in" class="contact-link">info@oceanapps.in</a>
+                <br>
+                <a href="tel:+1234567890" class="contact-link">+91 77299 72266</a>
+                <br>
+                <a href="tel:+1234567890" class="contact-link">+91 77299 72289</a>
+              </p>
+            </div>
+          </div>
+        </section>
+        <section class="text-center mb-5">
+          <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="social-icon"><i class="fab fa-google"></i></a>
+          <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+          <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
+        </section>
+      </div>
+      <div class="text-center p-3 custom-copyright">
+        © 2024 Oceanapps Technologies Pvt Ltd
+      </div>
+    </footer>
+  </div>
+
+  <!-- End Footer -->
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/counterup/counterup.min.js"></script>
+  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/superfish/superfish.min.js"></script>
+  <script src="assets/vendor/hoverIntent/hoverIntent.js"></script>
+  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="assets/vendor/venobox/venobox.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+
+
+
+  <!-- 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script> -->
+
+  <!-- footer -->
+
+
+  <!-- MDB -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <!-- Custom scripts -->
+  <script type="text/javascript" src="js/script.js"></script>
+
+
+
+</body>
+
+</html>

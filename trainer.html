@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  
+    <title>Oceanapps Technologies</title>
+    <meta content="Oceanapps - Industry 4.0 | IIoT | AI | Bangalore" name="descriptison">
+    <meta content="AI" name="keywords">
+  
+    <!-- Favicons -->
+    <link href="assets/img/oaroundfavicon.png" rel="icon">
+    <link href="assets/img/square_logo.png" rel="Oceanapps Logo">
+  
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Poppins:300,400,500,700"
+      rel="stylesheet">
+  
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/scroll.css" rel="stylesheet">
+  
+  
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+  
+  
+  
+    <!-- footer -->
+  
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" />
+    <!-- Google Fonts Roboto -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" />
+    <!-- MDB -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="css/style.css" />
+  
+    <!-- Swiper CSS (for future sliders if needed) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+
+    <!-- AOS Animation CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+
+    <!-- Font Awesome (For icons) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <style>
+        /* General Page Styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: white;
+            color: #333;
+        }
+
+        /* Hero Section */
+        .hero {
+            text-align: center;
+            padding-top: 120px;
+            background-size: auto;
+            background: linear-gradient(0deg, #ffffff, transparent, transparent, transparent),
+            url(assets/img/oabggradient911.png) fixed top center;
+            color: rgb(0, 0, 0);
+        }
+
+        .hero h1 {
+            font-size: 40px;
+            margin-bottom: 10px;
+        }
+
+        .hero p {
+            font-size: 18px;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        /* Trainers Section */
+        .trainers-section {
+            background: linear-gradient(to bottom, white, rgb(0, 51, 255)); 
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .trainers-section h2 {
+            color: rgb(4, 100, 255);
+            font-size: 45px;
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+
+        /* Trainer Grid */
+        .trainer-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+            max-width: 1200px;
+            margin: 0 auto;
+            margin-bottom: 0px;
+        }
+
+        /* Trainer Card */
+        .trainer-card {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            text-align: center;
+            width: 280px;
+            padding: 20px;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .trainer-card:hover {
+            transform: translateY(-10px);
+        }
+
+        .trainer-card img {
+            width: 100%;
+            border-radius: 10px;
+            height: 250px;
+            object-fit: cover;
+        }
+
+        .trainer-card h3 {
+            font-size: 22px;
+            margin: 15px 0 5px;
+            color: #333;
+        }
+
+        .trainer-card p {
+            font-size: 16px;
+            color: #666;
+            margin: 5px 0;
+        }
+
+        /* Social Icons */
+        .social-icons {
+            margin-top: 15px;
+        }
+
+        .social-icons a {
+            display: inline-block;
+            margin: 0 5px;
+            color: #007bff;
+            font-size: 20px;
+            transition: color 0.3s ease;
+        }
+
+        .social-icons a:hover {
+            color: #0056b3;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 32px;
+            }
+
+            .hero p {
+                font-size: 16px;
+            }
+
+            .trainers-section h2 {
+                font-size: 28px;
+            }
+
+            .trainer-card {
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+  <header id="header" class="header-transparent">
+    <div class="container">
+      <!-- 
+      <div id="logo" class="pull-left">
+        <a href="index"><img loading="lazy" src="assets/img/logo_1.png" alt="" height="100px" width="100px  "></a> -->
+      <!-- Uncomment below if you prefer to use a text logo -->
+      <!--<h1><a href="#hero">Oceanapps</a></h1>-->
+    
+
+    <div style="display: flex;flex-direction: column;">
+      <nav id="nav" class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <div id="logo" class="pull-left">
+            <a href="index"><img src="assets/img/oalogo.svg" loading="lazy" alt="" ></a>
+          </div>
+          <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" style="justify-content: space-around;" id="navbarTogglerDemo02">
+            <ul class="navbar-nav  mb-2 mb-lg-0" style="align-items: center;">
+              <li id="link" class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index">Home</a>
+              </li>
+              <li id="link" class="nav-item">
+                <a class="nav-link" href="about">About</a>
+              </li>
+              <li id="link" class="nav-item">
+                <a class="nav-link" href="products">Products</a>
+              </li>
+              <li id="link" class="nav-item">
+                <a class="nav-link" href="courses">Courses</a>
+              </li>
+              <li id="link" class="nav-item">
+                <a class="nav-link" href="trainer">Trainers</a>
+              </li>
+              <li id="link" class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="internships" id="internshipDropdown" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  Internships
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="internshipDropdown">
+                  <li><a class="dropdown-item" href="internships">Long-term Internships</a></li>
+                  <li><a class="dropdown-item" href="internships">short-term Internships</a></li>
+                  <li><a class="dropdown-item" href="internships">summer Internships</a></li>
+                  
+                </ul>
+              </li>
+              
+              <li id="link" class="nav-item">
+                <a class="nav-link" href="collaborations">Collaborations</a>
+                
+              </li>
+              <li id="link" class="nav-item">
+                <a class="nav-link" href="login">Login</a>
+              </li>
+              <li id="link" class="nav-item">
+                <a class="nav-link" href="contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      
+      <img id="emgimg" style="align-self: center;" loading="lazy" src="elegant_mesh_gradient.png" />
+
+    </div>
+
+
+    </div>
+
+
+    <script>
+      function resize_mesh_gradient_image(){
+        var brect = document.getElementById("nav").getBoundingClientRect();
+
+        var navwidth = brect.width;
+        var navxpos = brect.x;
+
+        const mimg = document.getElementById("emgimg");
+
+        mimg.style.width = (navwidth-44)+"px";
+        mimg.style.x = navxpos+"px";
+
+        //console.log("resizing");
+      }
+
+      resize_mesh_gradient_image();
+
+      window.addEventListener("resize", resize_mesh_gradient_image);
+    </script>
+
+  </header>
+
+  
+  <!-- End Header -->
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Meet Our Expert Trainers</h1>
+        <p>Industry professionals dedicated to providing top-notch learning experiences.</p>
+    </section>
+
+    <!-- Trainers Section -->
+    <section class="trainers-section">
+        <h2 data-aos="fade-up">Our Trainers</h2>
+
+        <div class="trainer-container">
+
+            <!-- Trainer 1 -->
+            <div class="trainer-card" data-aos="fade-up">
+                <img src="assets/img/content_photos/nprasad.jpg" loading="lazy" alt="Trainer 1">
+                <h3 style="font-weight: bold;">N S P S R Prasad</h3>
+                <p>Senior Full Stack Trainer </p>
+                <!-- <p>Expert in MERN Stack, 5+ years of experience.</p> -->
+                <!-- <div class="social-icons">
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div> -->
+            </div>
+
+            <!-- Trainer 2 -->
+            <div class="trainer-card" data-aos="fade-up" data-aos-delay="100">
+                <img src="assets/img/content_photos/nandhini.jpg" loading="lazy" alt="Trainer 2">
+                <h3 style="font-weight: bold;">Nandhini</h3>
+
+                <p>Aptitude Trainer</p>
+                <!-- <p>Specialist in Machine Learning and Power BI.</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div> -->
+            </div>
+
+            <div class="trainer-card" data-aos="fade-up" data-aos-delay="100">
+                <img src="assets/img/content_photos/lakshmi.jpg" loading="lazy" alt="Trainer 2">
+                <h3 style="font-weight: bold;">M lakshmi</h3>
+
+                <p>Full Stack Trainer</p>
+                <!-- <p>Specialist in Machine Learning and Power BI.</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div> -->
+            </div>
+
+            <div class="trainer-card" data-aos="fade-up" data-aos-delay="100">
+                <img src="assets/img/content_photos/shanthi.jpg" loading="lazy" alt="Trainer 2">
+                <h3 style="font-weight: bold;">Shanti</h3>
+
+                <p>Java Programming Trainer</p>
+                <!-- <p>Specialist in Machine Learning and Power BI.</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div> -->
+            </div>
+
+            <div class="trainer-card" data-aos="fade-up" data-aos-delay="100">
+              <img src="assets/img/content_photos/Ramya.jpg" loading="lazy" alt="Trainer 2">
+              <h3 style="font-weight: bold;">Ramya</h3>
+
+              <p>Power BI Trainer</p>
+              <!-- <p>Specialist in Machine Learning and Power BI.</p>
+              <div class="social-icons">
+                  <a href="#"><i class="fab fa-linkedin"></i></a>
+                  <a href="#"><i class="fab fa-github"></i></a>
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+              </div> -->
+          </div>
+
+            <div class="trainer-card" data-aos="fade-up" data-aos-delay="100">
+                <img src="assets/img/content_photos/sravana.jpg" loading="lazy" alt="Trainer 2">
+                <h3 style="font-weight: bold;">Sravana Sandhya</h3>
+
+                <p>Tally ERP Trainer</p>
+                <!-- <p>Specialist in Machine Learning and Power BI.</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div> -->
+            </div>
+
+            <div class="trainer-card" data-aos="fade-up" data-aos-delay="100">
+                <img src="assets/img/content_photos/latharani.jpg" loading="lazy" alt="Trainer 2">
+                <h3 style="font-weight: bold;">Latharani</h3>
+
+                <p>Digital Marketing Trainer</p>
+                <!-- <p>Specialist in Machine Learning and Power BI.</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div> -->
+            </div>
+            
+            <div class="trainer-card" data-aos="fade-up" data-aos-delay="100">
+              <img src="assets/img/content_photos/lavanya.jpg" loading="lazy" alt="Trainer 2">
+              <h3 style="font-weight: bold;">Lavanya</h3>
+
+              <p>C Programming trainer</p>
+              <!-- <p>Specialist in Machine Learning and Power BI.</p>
+              <div class="social-icons">
+                  <a href="#"><i class="fab fa-linkedin"></i></a>
+                  <a href="#"><i class="fab fa-github"></i></a>
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+              </div> -->
+          </div>
+
+          <div class="trainer-card" data-aos="fade-up" data-aos-delay="100">
+            <img src="assets/img/content_photos/harsha.jpg" loading="lazy" alt="Trainer 2">
+            <h3 style="font-weight: bold;">P Sri Harsha</h3>
+
+            <p>Data Science Trainer</p>
+            <!-- <p>Specialist in Machine Learning and Power BI.</p>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div> -->
+        </div>
+
+        <div class="trainer-card" data-aos="fade-up" data-aos-delay="100">
+          <img src="assets/img/content_photos/krishna.jpg" loading="lazy" alt="Trainer 2">
+          <h3 style="font-weight: bold;">Krishna Reddy</h3>
+
+          <p>Applied AI Trainer</p>
+          <!-- <p>Specialist in Machine Learning and Power BI.</p>
+          <div class="social-icons">
+              <a href="#"><i class="fab fa-linkedin"></i></a>
+              <a href="#"><i class="fab fa-github"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+          </div> -->
+      </div>
+
+      <div class="trainer-card" data-aos="fade-up" data-aos-delay="100">
+        <img src="assets/img/content_photos/samyuktha.jpg" loading="lazy" alt="Trainer 2">
+        <h3 style="font-weight: bold;">Samyuktha</h3>
+
+        <p>Communication Trainer</p>
+        <!-- <p>Specialist in Machine Learning and Power BI.</p>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+        </div> -->
+    </div>
+
+    <div class="trainer-card" data-aos="fade-up" data-aos-delay="100">
+      <img src="assets/img/content_photos/sathish.jpg" loading="lazy" alt="Trainer 2">
+      <h3 style="font-weight: bold;">Sathish</h3>
+
+      <p>Co-ordinator</p>
+      <!-- <p>Specialist in Machine Learning and Power BI.</p>
+      <div class="social-icons">
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+      </div> -->
+  </div>
+
+   
+
+            <!-- More trainers can be added dynamically here -->
+            
+        </div>
+    </section>
+
+    
+
+    <!-- AOS Animation Script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000, /* Animation speed */
+            once: true, /* Animation triggers once */
+        });
+    </script>
+
+     <!-- Vendor JS Files -->
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/counterup/counterup.min.js"></script>
+  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/superfish/superfish.min.js"></script>
+  <script src="assets/vendor/hoverIntent/hoverIntent.js"></script>
+  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="assets/vendor/venobox/venobox.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+    <!-- footer -->
+
+
+        <!-- MDB -->
+        <script type="text/javascript" src="js/mdb.min.js"></script>
+        <!-- Custom scripts -->
+        <script type="text/javascript" src="js/script.js"></script>
+
+
+
+</body>
+</html>
